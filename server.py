@@ -32,8 +32,7 @@ app.add_middleware(
 # ——————————————————————————————————————————————————
 # ▶️▶️▶️ NEW: load your recognition model + known embeddings at startup
 # ——————————————————————————————————————————————————
-MODEL_NAME = "buffalo_quantized_dynamic_v1"
-EMB_CACHE_PATH = "embeddings_cache/buffalo_quantized_dynamic_v1_embeddings.pkl"
+MODEL_NAME = "buffalo_sc"
 SIM_THRESHOLD = 0.3
 
 MONGO_URI = os.getenv("MONGO_URI")
