@@ -1,0 +1,9 @@
+insightface
+fastapi
+opencv-python
+onnxruntime
+numpy
+pymongo
+asyncio
+uvicorn
+python-dotenv
